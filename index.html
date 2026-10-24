@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="weatherForm">
+        <input type="text" class="cityInput" placeholder="Enter a city...">
+        <button type="submit">Get Weather</button>
+    </form>
+
+    <div class="card" style="display: none;">
+        <p class="timeDisplay">00:00 PM</time></p>
+        <h1 class="cityDisplay">Nanjing</h1>
+        <p class="tempDisplay">30°C</p>
+        <p class="humidityDisplay">Humidity: 75%</p>
+        <p class="descDisplay">Clear Skies</p>
+        <p class="weatherEmoji">☀️</p>
+        <p class="errorMessage">Please Enter a City</p>
+    </div>
+    <script src="config.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
